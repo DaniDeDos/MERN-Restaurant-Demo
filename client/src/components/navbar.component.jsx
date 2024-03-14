@@ -36,7 +36,7 @@ const Navbar = () => {
             <LuFileEdit className="mt-0.5" />
             <p>Home</p>
           </Link>
-          <Link to={"/"} className="hidden md:flex gap-2 link">
+          <Link to={"/about"} className="hidden md:flex gap-2 link">
             <LuFileEdit className="mt-0.5" />
             <p>About</p>
           </Link>

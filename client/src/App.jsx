@@ -4,6 +4,7 @@ import { Routes, Route } from "react-router-dom";
 import UserAuthForm from "./pages/userAuthForm.page";
 import { lookInSession } from "./common/session";
 import Home from "./pages/home.page";
+import About from "./pages/about.page";
 
 export const UserContext = createContext({});
 
@@ -23,6 +24,7 @@ const App = () => {
       <Routes>
         <Route exact path="/" element={<Nabvar />}>
           <Route exact path="/" element={<Home />} />
+          <Route exact path="/about" element={<About/>} />
 
           <Route
             exact
